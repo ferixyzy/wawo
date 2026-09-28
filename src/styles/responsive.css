@@ -1,0 +1,6 @@
+@media(min-width:700px){
+  .app{max-width:520px;margin:auto;border-left:1px solid var(--line);border-right:1px solid var(--line)}
+}
+@media(max-height:680px){
+  .topbar{min-height:82px;padding-bottom:8px}.avatar{width:46px;height:46px}.chat-row{padding:8px 7px}.bottom-nav{min-height:64px}
+}
