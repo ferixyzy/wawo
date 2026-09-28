@@ -1,0 +1,9 @@
+.pop{animation:pop .42s cubic-bezier(.2,.9,.2,1) both}
+@keyframes pop{0%{opacity:0;transform:translateY(10px) scale(.98)}100%{opacity:1;transform:none}}
+.msg-in{animation:msgIn .32s cubic-bezier(.2,.85,.2,1) both}
+@keyframes msgIn{0%{opacity:0;transform:translateY(7px) scale(.98)}100%{opacity:1;transform:none}}
+.sheet{animation:sheet .36s cubic-bezier(.2,.85,.2,1) both}
+@keyframes sheet{0%{opacity:0;transform:translateY(100%)}100%{opacity:1;transform:none}}
+.pulse{animation:pulse 1.25s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.45;transform:scale(.9)}}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.001ms!important;transition-duration:.001ms!important;scroll-behavior:auto!important}}
