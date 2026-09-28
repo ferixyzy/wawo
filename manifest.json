@@ -1,0 +1,14 @@
+{
+  "name": "WAMO",
+  "short_name": "WAMO",
+  "description": "Original premium mobile messaging web app.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#eef3f7",
+  "theme_color": "#eef3f7",
+  "icons": [
+    {"src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}
+  ]
+}
